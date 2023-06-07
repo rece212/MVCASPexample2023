@@ -1,0 +1,13 @@
+﻿CREATE TABLE StudentDetails (
+    StudentID INT PRIMARY KEY,
+    LastName VARCHAR(50),
+    FirstName VARCHAR(50),
+    Address VARCHAR(100),
+    City VARCHAR(50)
+);
+
+INSERT INTO StudentDetails (StudentID, LastName, FirstName, Address, City)
+VALUES
+    (1, 'Doe', 'John', '123 Main St', 'New York'),
+    (2, 'Smith', 'Jane', '456 Elm St', 'Los Angeles'),
+    (3, 'Johnson', 'Michael', '789 Oak Ave', 'Chicago');
